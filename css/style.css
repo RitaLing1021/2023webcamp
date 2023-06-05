@@ -1,0 +1,123 @@
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  img{
+    width:100%;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .container{
+      width:1296px;  
+      margin:0 auto;
+      
+   }
+  .container ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .card-body{
+    height: 558px;
+    width: 416px;
+    border-radius: 16px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .card-body img{
+    border-radius:16px 16px 0 0;
+  }
+  .card-body .title{
+    padding:10px 20px;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+  }
+  .card-body h3{
+    color:#020202;
+    font-size:20px;
+    line-height:1.2em;
+    Font-weight:900;
+    margin-bottom:10px;
+  }
+  .card-body p{
+    color:#525252;
+    font-size:14px;
+    line-height:1.5em;
+    Font-weight:400;
+  }
+  
+  .card-body .info-item{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 32px;
+      border-bottom: 1px solid #f2f2f2;
+  }
+  .card-body .info-title{
+    font-weight:700;
+  
+  }
+  .card-body .info-title span{
+    font-weight:400;
+  }
